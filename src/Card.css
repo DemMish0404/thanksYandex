@@ -1,0 +1,67 @@
+.card {
+   
+   border-radius: 10px;
+   background-color: #232323;
+   max-width: 200px;
+}
+.card__media {
+   
+   position: relative;
+   padding-bottom: 100%;
+}
+
+.card__media img{
+   border-radius: 10px 10px 0 0 ;
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.card__below{
+   padding: 10px;
+}
+.card__label {
+   color: #FFF;
+
+font-size: 8px;
+
+font-weight: 500;
+}
+.card__label:not(:last-child){
+   margin-bottom: 15px;
+}
+.card__rate {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.card__rate:not(:last-child){
+   margin-bottom: 10px;
+}
+.rate {
+   
+}
+.rate__what {
+   color: #FFF;
+
+font-size: 5px;
+
+font-weight: 500;
+}
+.rate__mark {
+   border-radius: 5px;
+   text-align: center;
+   padding: 3px 8px;
+   background-color: #FFF965;
+}
+
+.card__description {
+   color: #FFF;
+
+font-size: 5px;
+
+font-weight: 500;
+}
